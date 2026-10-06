@@ -1,0 +1,120 @@
+#ft-overlay {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 2147483647 !important;
+  background: #0b0b0f !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif !important;
+  color: #fff !important;
+}
+
+#ft-overlay .ft-card {
+  width: 340px !important;
+  padding: 28px !important;
+  background: #16161d !important;
+  border-radius: 18px !important;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, .6) !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+}
+
+#ft-overlay .ft-site {
+  font-size: 12px !important;
+  letter-spacing: 2px !important;
+  text-transform: uppercase !important;
+  color: #8a8a99 !important;
+  margin-bottom: 6px !important;
+}
+
+#ft-overlay h1 {
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  margin: 0 0 22px !important;
+  color: #fff !important;
+}
+
+#ft-overlay .ft-quick {
+  display: flex !important;
+  gap: 8px !important;
+  margin-bottom: 16px !important;
+}
+
+#ft-overlay .ft-quick button {
+  flex: 1 !important;
+  padding: 14px 0 !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  border: 0 !important;
+  border-radius: 12px !important;
+  background: #262633 !important;
+  color: #fff !important;
+  cursor: pointer !important;
+}
+
+#ft-overlay .ft-quick button:hover { background: #33334a !important; }
+
+#ft-overlay .ft-custom {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  margin-bottom: 18px !important;
+}
+
+#ft-overlay .ft-custom input {
+  flex: 1 !important;
+  padding: 12px !important;
+  font-size: 15px !important;
+  border-radius: 12px !important;
+  border: 1px solid #2e2e3d !important;
+  background: #0f0f16 !important;
+  color: #fff !important;
+  outline: none !important;
+  box-sizing: border-box !important;
+}
+
+#ft-overlay .ft-custom span {
+  font-size: 14px !important;
+  color: #8a8a99 !important;
+}
+
+#ft-overlay #ft-start {
+  width: 100% !important;
+  padding: 14px !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  border: 0 !important;
+  border-radius: 12px !important;
+  background: #3b6ef5 !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  margin-bottom: 10px !important;
+}
+
+#ft-overlay #ft-start:hover { background: #2f5cd6 !important; }
+
+#ft-overlay #ft-cancel {
+  width: 100% !important;
+  padding: 10px !important;
+  font-size: 13px !important;
+  border: 0 !important;
+  background: transparent !important;
+  color: #8a8a99 !important;
+  cursor: pointer !important;
+}
+
+#ft-overlay #ft-cancel:hover { color: #fff !important; }
+#ft-badge {
+  position: fixed !important;
+  top: 14px !important;
+  right: 14px !important;
+  z-index: 2147483647 !important;
+  padding: 9px 16px !important;
+  border-radius: 999px !important;
+  background: #111118 !important;
+  color: #fff !important;
+  font: 600 14px/1 -apple-system, "Segoe UI", Roboto, sans-serif !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .35) !important;
+  pointer-events: none !important;
+}
