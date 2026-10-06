@@ -33,6 +33,4 @@ Done. Open `facebook.com` or `instagram.com` to see it working.
 - Edge
 - Brave
 
-## developer :
- -Fils niyonzima 
- -purpose : to help those who strugle with social media and spent the whole day scrolling as I was 😜💪
+## developer : Fils niyonzima  ikuza
